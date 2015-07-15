@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.4.2.v201410272105 Build &lt;4.4.2.v20150217-1805></property>
+    <property name="units">in</property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <property name="bidiLayoutOrientation">ltr</property>
+    <property name="imageDPI">96</property>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="exp-policias" id="7">
+            <list-property name="privateDriverProperties">
+                <ex-property>
+                    <name>metadataBidiFormatStr</name>
+                    <value>ILYNN</value>
+                </ex-property>
+                <ex-property>
+                    <name>disabledMetadataBidiFormatStr</name>
+                </ex-property>
+                <ex-property>
+                    <name>contentBidiFormatStr</name>
+                    <value>ILYNN</value>
+                </ex-property>
+                <ex-property>
+                    <name>disabledContentBidiFormatStr</name>
+                </ex-property>
+            </list-property>
+            <property name="odaDriverClass">com.mysql.jdbc.Driver</property>
+            <property name="odaURL">jdbc:mysql://www.unlimitedthinks.com:2085/expediente_policia</property>
+            <property name="odaUser">polix</property>
+            <encrypted-property name="odaPassword" encryptionID="base64">MDFQbzA0MTU=</encrypted-property>
+        </oda-data-source>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="exp-habilidades-destrezas-ev" id="8">
+            <property name="nullsOrdering">nulls lowest</property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">clave_empleado</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">clave_empleado</text-property>
+                    <text-property name="heading">clave_empleado</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">nombre</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">nombre</text-property>
+                    <text-property name="heading">nombre</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">apellido_paterno</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">apellido_paterno</text-property>
+                    <text-property name="heading">apellido_paterno</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">apellido_materno</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">apellido_materno</text-property>
+                    <text-property name="heading">apellido_materno</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">fecha</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">fecha</text-property>
+                    <text-property name="heading">fecha</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">observaciones</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">observaciones</text-property>
+                    <text-property name="heading">observaciones</text-property>
+                </structure>
+            </list-property>
+            <list-property name="parameters"/>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">clave_empleado</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">nombre</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">apellido_paterno</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">apellido_materno</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">fecha</property>
+                        <property name="dataType">date</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">observaciones</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">exp-policias</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">clave_empleado</property>
+                    <property name="nativeName">clave_empleado</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">nombre</property>
+                    <property name="nativeName">nombre</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">apellido_paterno</property>
+                    <property name="nativeName">apellido_paterno</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">apellido_materno</property>
+                    <property name="nativeName">apellido_materno</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">fecha</property>
+                    <property name="nativeName">fecha</property>
+                    <property name="dataType">date</property>
+                    <property name="nativeDataType">91</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">observaciones</property>
+                    <property name="nativeName">observaciones</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[SELECT 
+A.clave_empleado, A.nombre, A.apellido_paterno, 
+A.apellido_materno, B.fecha, B.observaciones
+FROM 
+elementos A, log_evaluaciones B, evaluaciones C
+WHERE 
+C.idTipo = 3 and B.idEvaluacion = C.id and A.id = B.idElemento and B.cumplimiento = 1]]></xml-property>
+            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <design:ResultSets derivedMetaData="true">
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>nombre</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>60</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>NotNullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>nombre</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>nombre</design:label>
+            <design:formattingHints>
+              <design:displaySize>60</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>apellido_paterno</design:name>
+              <design:position>2</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>30</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>NotNullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>apellido_paterno</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>apellido_paterno</design:label>
+            <design:formattingHints>
+              <design:displaySize>30</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>apellido_materno</design:name>
+              <design:position>3</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>30</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>NotNullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>apellido_materno</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>apellido_materno</design:label>
+            <design:formattingHints>
+              <design:displaySize>30</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>fecha</design:name>
+              <design:position>4</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>91</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>NotNullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>fecha</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>fecha</design:label>
+            <design:formattingHints>
+              <design:displaySize>10</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>observaciones</design:name>
+              <design:position>5</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>21845</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>NotNullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>observaciones</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>observaciones</design:label>
+            <design:formattingHints>
+              <design:displaySize>21845</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria/>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+        </oda-data-set>
+    </data-sets>
+    <styles>
+        <style name="report" id="4">
+            <property name="fontFamily">sans-serif</property>
+            <property name="fontSize">10pt</property>
+        </style>
+        <style name="crosstab-cell" id="5">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab" id="6">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="fondo-gris" id="75">
+            <property name="backgroundColor">#D2D2D2</property>
+        </style>
+        <style name="titulo" id="77">
+            <property name="fontSize">12pt</property>
+            <property name="fontWeight">bold</property>
+            <property name="textAlign">center</property>
+            <property name="textTransform">uppercase</property>
+        </style>
+        <style name="tabla-th" id="118">
+            <property name="fontWeight">bold</property>
+            <property name="textAlign">left</property>
+        </style>
+    </styles>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <property name="leftMargin">0.5208333333333334in</property>
+            <property name="rightMargin">0.5208333333333334in</property>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <grid id="9">
+            <property name="height">1.78125in</property>
+            <column id="10"/>
+            <column id="11"/>
+            <column id="12"/>
+            <column id="13"/>
+            <column id="14"/>
+            <column id="15"/>
+            <column id="16"/>
+            <column id="17"/>
+            <column id="18"/>
+            <column id="19"/>
+            <row id="20">
+                <cell id="21">
+                    <property name="colSpan">10</property>
+                    <property name="rowSpan">1</property>
+                    <property name="style">fondo-gris</property>
+                    <label id="76">
+                        <property name="style">titulo</property>
+                        <text-property name="text">Personal que realizó la prueba de habilidades y destrezas</text-property>
+                    </label>
+                </cell>
+            </row>
+            <row id="31">
+                <cell id="32"/>
+                <cell id="33"/>
+                <cell id="34"/>
+                <cell id="35"/>
+                <cell id="36"/>
+                <cell id="37"/>
+                <cell id="38"/>
+                <cell id="39"/>
+                <cell id="40"/>
+                <cell id="41"/>
+            </row>
+            <row id="42">
+                <property name="height">1.1354166666666667in</property>
+                <cell id="43">
+                    <property name="colSpan">10</property>
+                    <property name="rowSpan">1</property>
+                    <table id="78">
+                        <property name="width">7.333333333333333in</property>
+                        <property name="dataSet">exp-habilidades-destrezas-ev</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">clave_empleado</property>
+                                <text-property name="displayName">clave_empleado</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["clave_empleado"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                            <structure>
+                                <property name="name">apellido_paterno</property>
+                                <text-property name="displayName">apellido_paterno</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["apellido_paterno"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                            <structure>
+                                <property name="name">apellido_materno</property>
+                                <text-property name="displayName">apellido_materno</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["apellido_materno"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                            <structure>
+                                <property name="name">nombre</property>
+                                <text-property name="displayName">nombre</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["nombre"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                            <structure>
+                                <property name="name">fecha</property>
+                                <text-property name="displayName">fecha</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["fecha"]</expression>
+                                <property name="dataType">date</property>
+                            </structure>
+                            <structure>
+                                <property name="name">observaciones</property>
+                                <text-property name="displayName">observaciones</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["observaciones"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                        </list-property>
+                        <column id="97">
+                            <property name="width">1.2291666666666667in</property>
+                        </column>
+                        <column id="98">
+                            <property name="width">1.2291666666666667in</property>
+                        </column>
+                        <column id="99">
+                            <property name="width">1.21875in</property>
+                        </column>
+                        <column id="100">
+                            <property name="width">1.21875in</property>
+                        </column>
+                        <column id="101">
+                            <property name="width">0.8645833333333334in</property>
+                        </column>
+                        <column id="105">
+                            <property name="width">1.5729166666666667in</property>
+                        </column>
+                        <header>
+                            <row id="79">
+                                <cell id="80">
+                                    <label id="106">
+                                        <property name="style">tabla-th</property>
+                                        <text-property name="text">Clave de empleado</text-property>
+                                    </label>
+                                </cell>
+                                <cell id="81">
+                                    <label id="108">
+                                        <property name="style">tabla-th</property>
+                                        <text-property name="text">Nombre</text-property>
+                                    </label>
+                                </cell>
+                                <cell id="82">
+                                    <label id="110">
+                                        <property name="style">tabla-th</property>
+                                        <text-property name="text">Apellido paterno</text-property>
+                                    </label>
+                                </cell>
+                                <cell id="83">
+                                    <label id="112">
+                                        <property name="style">tabla-th</property>
+                                        <text-property name="text">Apellido Materno</text-property>
+                                    </label>
+                                </cell>
+                                <cell id="84">
+                                    <label id="114">
+                                        <property name="style">tabla-th</property>
+                                        <text-property name="text">Fecha</text-property>
+                                    </label>
+                                </cell>
+                                <cell id="102">
+                                    <label id="116">
+                                        <property name="style">tabla-th</property>
+                                        <text-property name="text">Observaciones</text-property>
+                                    </label>
+                                </cell>
+                            </row>
+                        </header>
+                        <detail>
+                            <row id="85">
+                                <cell id="86">
+                                    <data id="107">
+                                        <property name="resultSetColumn">clave_empleado</property>
+                                    </data>
+                                </cell>
+                                <cell id="87">
+                                    <data id="113">
+                                        <property name="resultSetColumn">nombre</property>
+                                    </data>
+                                </cell>
+                                <cell id="88">
+                                    <data id="109">
+                                        <property name="resultSetColumn">apellido_paterno</property>
+                                    </data>
+                                </cell>
+                                <cell id="89">
+                                    <data id="111">
+                                        <property name="resultSetColumn">apellido_materno</property>
+                                    </data>
+                                </cell>
+                                <cell id="90">
+                                    <data id="115">
+                                        <property name="resultSetColumn">fecha</property>
+                                    </data>
+                                </cell>
+                                <cell id="103">
+                                    <data id="117">
+                                        <property name="resultSetColumn">observaciones</property>
+                                    </data>
+                                </cell>
+                            </row>
+                        </detail>
+                        <footer>
+                            <row id="91">
+                                <cell id="92"/>
+                                <cell id="93"/>
+                                <cell id="94"/>
+                                <cell id="95"/>
+                                <cell id="96"/>
+                                <cell id="104"/>
+                            </row>
+                        </footer>
+                    </table>
+                </cell>
+            </row>
+            <row id="64">
+                <cell id="65"/>
+                <cell id="66"/>
+                <cell id="67"/>
+                <cell id="68"/>
+                <cell id="69"/>
+                <cell id="70"/>
+                <cell id="71"/>
+                <cell id="72"/>
+                <cell id="73"/>
+                <cell id="74"/>
+            </row>
+        </grid>
+    </body>
+</report>
