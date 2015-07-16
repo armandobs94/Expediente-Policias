@@ -349,7 +349,7 @@ and B.cumplimiento != 1 and A.idTipo = 2]]></xml-property>
                     <property name="style">fondo-gris</property>
                     <label id="76">
                         <property name="style">titulo</property>
-                        <text-property name="text">Personal que NO realizó la prueba de habilidades y destrezas</text-property>
+                        <text-property name="text">Personal que NO realizó la prueba de control y confianza</text-property>
                     </label>
                 </cell>
             </row>
