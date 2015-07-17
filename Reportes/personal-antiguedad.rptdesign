@@ -291,6 +291,7 @@
                     <text-property name="heading">idTipo</text-property>
                 </structure>
             </list-property>
+            <list-property name="parameters"/>
             <structure name="cachedMetaData">
                 <list-property name="resultSet">
                     <structure>
@@ -815,7 +816,7 @@
                 </structure>
             </list-property>
             <xml-property name="queryText"><![CDATA[
-SELECT * FROM elementos ORDER BY fecha_ingreso DESC
+SELECT * FROM elementos ORDER BY fecha_ingreso ASC
 
 	 ]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>

@@ -816,7 +816,7 @@
                 </structure>
             </list-property>
             <xml-property name="queryText"><![CDATA[
-SELECT * FROM elementos Where idTipo = 2 ORDER BY fecha_ingreso DESC
+SELECT * FROM elementos Where idTipo = 2 ORDER BY fecha_ingreso ASC
 
 	 ]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
