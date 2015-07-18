@@ -48,6 +48,7 @@
     </data-sources>
     <data-sets>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="total-elementos" id="84">
+            <list-property name="columnHints"/>
             <list-property name="parameters">
                 <structure>
                     <property name="name">param_1</property>
@@ -78,7 +79,7 @@
                     <property name="dataType">decimal</property>
                 </structure>
             </list-property>
-            <xml-property name="queryText"><![CDATA[select count(*) from elementos where year(fecha_ingreso)=?]]></xml-property>
+            <xml-property name="queryText"><![CDATA[select count(*) from elementos where year(fecha_ingreso)=? and idTipo = 2]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>
@@ -102,6 +103,7 @@
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="exp-elementos" id="86">
+            <list-property name="columnHints"/>
             <list-property name="parameters">
                 <structure>
                     <property name="name">param_1</property>
@@ -180,7 +182,7 @@
 clave_empleado,nombre, apellido_paterno, apellido_materno, edad 
 from 
 elementos 
-where year(fecha_ingreso)=?]]></xml-property>
+where year(fecha_ingreso)=? and idTipo = 2]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>
