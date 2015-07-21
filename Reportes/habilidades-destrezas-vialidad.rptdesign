@@ -157,7 +157,8 @@ FROM
 elementos A, log_evaluaciones B, evaluaciones C
 WHERE 
 C.idTipo = 2 and B.idEvaluacion = C.id and A.id = B.idElemento 
-and A.idTipo = 2 and B.cumplimiento != 1]]></xml-property>
+and A.idTipo = 2 
+and B.cumplimiento != 1]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>
@@ -322,6 +323,10 @@ and A.idTipo = 2 and B.cumplimiento != 1]]></xml-property>
             <property name="fontWeight">bold</property>
             <property name="textAlign">left</property>
         </style>
+        <style name="borde-inferior" id="119">
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">thin</property>
+        </style>
     </styles>
     <page-setup>
         <simple-master-page name="Simple MasterPage" id="2">
@@ -472,31 +477,37 @@ and A.idTipo = 2 and B.cumplimiento != 1]]></xml-property>
                         <detail>
                             <row id="85">
                                 <cell id="86">
+                                    <property name="style">borde-inferior</property>
                                     <data id="107">
                                         <property name="resultSetColumn">clave_empleado</property>
                                     </data>
                                 </cell>
                                 <cell id="87">
+                                    <property name="style">borde-inferior</property>
                                     <data id="113">
                                         <property name="resultSetColumn">nombre</property>
                                     </data>
                                 </cell>
                                 <cell id="88">
+                                    <property name="style">borde-inferior</property>
                                     <data id="109">
                                         <property name="resultSetColumn">apellido_paterno</property>
                                     </data>
                                 </cell>
                                 <cell id="89">
+                                    <property name="style">borde-inferior</property>
                                     <data id="111">
                                         <property name="resultSetColumn">apellido_materno</property>
                                     </data>
                                 </cell>
                                 <cell id="90">
+                                    <property name="style">borde-inferior</property>
                                     <data id="115">
                                         <property name="resultSetColumn">fecha</property>
                                     </data>
                                 </cell>
                                 <cell id="103">
+                                    <property name="style">borde-inferior</property>
                                     <data id="117">
                                         <property name="resultSetColumn">observaciones</property>
                                     </data>

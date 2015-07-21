@@ -883,6 +883,10 @@ B.idLicencia = 1 order by A.clave_empleado desc]]></xml-property>
             <property name="fontWeight">bold</property>
             <property name="textAlign">left</property>
         </style>
+        <style name="borde-inferior" id="361">
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">thin</property>
+        </style>
     </styles>
     <page-setup>
         <simple-master-page name="Simple MasterPage" id="2">
@@ -1034,31 +1038,37 @@ B.idLicencia = 1 order by A.clave_empleado desc]]></xml-property>
                         <detail>
                             <row id="84">
                                 <cell id="85">
+                                    <property name="style">borde-inferior</property>
                                     <data id="107">
                                         <property name="resultSetColumn">clave_empleado</property>
                                     </data>
                                 </cell>
                                 <cell id="86">
+                                    <property name="style">borde-inferior</property>
                                     <data id="109">
                                         <property name="resultSetColumn">nombre</property>
                                     </data>
                                 </cell>
                                 <cell id="87">
+                                    <property name="style">borde-inferior</property>
                                     <data id="111">
                                         <property name="resultSetColumn">apellido_paterno</property>
                                     </data>
                                 </cell>
                                 <cell id="88">
+                                    <property name="style">borde-inferior</property>
                                     <data id="113">
                                         <property name="resultSetColumn">apellido_materno</property>
                                     </data>
                                 </cell>
                                 <cell id="89">
+                                    <property name="style">borde-inferior</property>
                                     <data id="115">
                                         <property name="resultSetColumn">fecha</property>
                                     </data>
                                 </cell>
                                 <cell id="90">
+                                    <property name="style">borde-inferior</property>
                                     <data id="117">
                                         <property name="resultSetColumn">causa</property>
                                     </data>
@@ -1237,31 +1247,37 @@ B.idLicencia = 1 order by A.clave_empleado desc]]></xml-property>
                         <detail>
                             <row id="209">
                                 <cell id="210">
+                                    <property name="style">borde-inferior</property>
                                     <data id="230">
                                         <property name="resultSetColumn">clave_empleado</property>
                                     </data>
                                 </cell>
                                 <cell id="211">
+                                    <property name="style">borde-inferior</property>
                                     <data id="232">
                                         <property name="resultSetColumn">nombre</property>
                                     </data>
                                 </cell>
                                 <cell id="212">
+                                    <property name="style">borde-inferior</property>
                                     <data id="234">
                                         <property name="resultSetColumn">apellido_paterno</property>
                                     </data>
                                 </cell>
                                 <cell id="213">
+                                    <property name="style">borde-inferior</property>
                                     <data id="236">
                                         <property name="resultSetColumn">apellido_materno</property>
                                     </data>
                                 </cell>
                                 <cell id="214">
+                                    <property name="style">borde-inferior</property>
                                     <data id="238">
                                         <property name="resultSetColumn">fecha_insercion</property>
                                     </data>
                                 </cell>
                                 <cell id="215">
+                                    <property name="style">borde-inferior</property>
                                     <data id="240">
                                         <property name="resultSetColumn">motivo</property>
                                     </data>
@@ -1440,31 +1456,37 @@ B.idLicencia = 1 order by A.clave_empleado desc]]></xml-property>
                         <detail>
                             <row id="329">
                                 <cell id="330">
+                                    <property name="style">borde-inferior</property>
                                     <data id="350">
                                         <property name="resultSetColumn">clave_empleado</property>
                                     </data>
                                 </cell>
                                 <cell id="331">
+                                    <property name="style">borde-inferior</property>
                                     <data id="352">
                                         <property name="resultSetColumn">nombre</property>
                                     </data>
                                 </cell>
                                 <cell id="332">
+                                    <property name="style">borde-inferior</property>
                                     <data id="354">
                                         <property name="resultSetColumn">apellido_paterno</property>
                                     </data>
                                 </cell>
                                 <cell id="333">
+                                    <property name="style">borde-inferior</property>
                                     <data id="356">
                                         <property name="resultSetColumn">apellido_materno</property>
                                     </data>
                                 </cell>
                                 <cell id="334">
+                                    <property name="style">borde-inferior</property>
                                     <data id="358">
                                         <property name="resultSetColumn">fecha_insercion</property>
                                     </data>
                                 </cell>
                                 <cell id="335">
+                                    <property name="style">borde-inferior</property>
                                     <data id="360">
                                         <property name="resultSetColumn">motivo</property>
                                     </data>

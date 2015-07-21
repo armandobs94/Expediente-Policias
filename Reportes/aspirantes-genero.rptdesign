@@ -817,7 +817,8 @@
             </list-property>
             <xml-property name="queryText"><![CDATA[SELECT * 
 FROM elementos 
-WHERE idEstatus = 1 and sexo = "F"]]></xml-property>
+WHERE idEstatus = 1 and sexo = "F"
+]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>
@@ -1742,6 +1743,7 @@ WHERE idEstatus = 1 and sexo = "F"]]></xml-property>
                     <text-property name="heading">total</text-property>
                 </structure>
             </list-property>
+            <list-property name="parameters"/>
             <structure name="cachedMetaData">
                 <list-property name="resultSet">
                     <structure>
@@ -1764,7 +1766,8 @@ WHERE idEstatus = 1 and sexo = "F"]]></xml-property>
             <xml-property name="queryText"><![CDATA[
 SELECT count(*) AS total 
 FROM elementos 
-WHERE idEstatus = 1 and sexo = "F"]]></xml-property>
+WHERE idEstatus = 1 and sexo = "F"
+]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>
@@ -2059,6 +2062,7 @@ WHERE idEstatus = 1 and sexo = "F"]]></xml-property>
                     <text-property name="heading">idTipo</text-property>
                 </structure>
             </list-property>
+            <list-property name="parameters"/>
             <structure name="cachedMetaData">
                 <list-property name="resultSet">
                     <structure>
@@ -2585,7 +2589,8 @@ WHERE idEstatus = 1 and sexo = "F"]]></xml-property>
             <xml-property name="queryText"><![CDATA[
 SELECT * 
 FROM elementos 
-WHERE idEstatus = 1 and sexo = "M"]]></xml-property>
+WHERE idEstatus = 1 and sexo = "M"
+]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>
@@ -3510,6 +3515,7 @@ WHERE idEstatus = 1 and sexo = "M"]]></xml-property>
                     <text-property name="heading">total</text-property>
                 </structure>
             </list-property>
+            <list-property name="parameters"/>
             <structure name="cachedMetaData">
                 <list-property name="resultSet">
                     <structure>
@@ -3531,7 +3537,8 @@ WHERE idEstatus = 1 and sexo = "M"]]></xml-property>
             </list-property>
             <xml-property name="queryText"><![CDATA[SELECT count(*) AS total 
 FROM elementos 
-WHERE idEstatus = 1 and sexo = "M"]]></xml-property>
+WHERE idEstatus = 1 and sexo = "M"
+]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>
@@ -3621,6 +3628,7 @@ WHERE idEstatus = 1 and sexo = "M"]]></xml-property>
     </styles>
     <page-setup>
         <simple-master-page name="Simple MasterPage" id="2"/>
+        <simple-master-page name="pag2" id="260"/>
     </page-setup>
     <body>
         <grid id="7">
@@ -3643,7 +3651,7 @@ WHERE idEstatus = 1 and sexo = "M"]]></xml-property>
                     <property name="style">fondo-gris</property>
                     <label id="75">
                         <property name="style">texto-encabezado</property>
-                        <text-property name="text">Solicitudes de aspirante por hombres y mujeres</text-property>
+                        <text-property name="text">Solicitudes de aspirantes por hombres y mujeres</text-property>
                     </label>
                 </cell>
             </row>
@@ -3666,7 +3674,7 @@ WHERE idEstatus = 1 and sexo = "M"]]></xml-property>
                     <property name="rowSpan">1</property>
                     <label id="153">
                         <property name="style">texto-encabezado</property>
-                        <text-property name="text">Solicitudes de mujeres.</text-property>
+                        <text-property name="text">Solicitud de mujeres.</text-property>
                     </label>
                 </cell>
                 <cell id="147"/>
@@ -3865,6 +3873,8 @@ WHERE idEstatus = 1 and sexo = "M"]]></xml-property>
             </row>
         </grid>
         <grid id="162">
+            <property name="masterPage">pag2</property>
+            <property name="pageBreakBefore">always</property>
             <property name="height">2.5520833333333335in</property>
             <column id="163"/>
             <column id="164"/>
@@ -3884,7 +3894,7 @@ WHERE idEstatus = 1 and sexo = "M"]]></xml-property>
                     <property name="rowSpan">1</property>
                     <label id="190">
                         <property name="style">texto-encabezado</property>
-                        <text-property name="text">Solicitudes de hombres.</text-property>
+                        <text-property name="text">Solicitud de hombres.</text-property>
                     </label>
                 </cell>
                 <cell id="191"/>

@@ -61,478 +61,13 @@
                     <property name="isOutput">false</property>
                 </structure>
             </list-property>
-            <structure name="cachedMetaData">
-                <list-property name="resultSet">
-                    <structure>
-                        <property name="position">1</property>
-                        <property name="name">id</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">2</property>
-                        <property name="name">folio</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">3</property>
-                        <property name="name">clave_empleado</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">4</property>
-                        <property name="name">nombre</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">5</property>
-                        <property name="name">apellido_paterno</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">6</property>
-                        <property name="name">apellido_materno</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">7</property>
-                        <property name="name">fecha_nac</property>
-                        <property name="dataType">date</property>
-                    </structure>
-                    <structure>
-                        <property name="position">8</property>
-                        <property name="name">municipio_nac</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">9</property>
-                        <property name="name">estado_nac</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">10</property>
-                        <property name="name">rfc</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">11</property>
-                        <property name="name">curp</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">12</property>
-                        <property name="name">edad</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">13</property>
-                        <property name="name">sexo</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">14</property>
-                        <property name="name">telefono</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">15</property>
-                        <property name="name">movil</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">16</property>
-                        <property name="name">domicilio_next</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">17</property>
-                        <property name="name">domicilio_nint</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">18</property>
-                        <property name="name">domicilio_calle</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">19</property>
-                        <property name="name">domicilio_col</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">20</property>
-                        <property name="name">domicilio_cp</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">21</property>
-                        <property name="name">domicilio_mpo</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">22</property>
-                        <property name="name">domicilio_edo</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">23</property>
-                        <property name="name">estado_civil</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">24</property>
-                        <property name="name">email</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">25</property>
-                        <property name="name">fotografia</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">26</property>
-                        <property name="name">pulgar_der</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">27</property>
-                        <property name="name">indice_der</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">28</property>
-                        <property name="name">medio_der</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">29</property>
-                        <property name="name">anular_der</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">30</property>
-                        <property name="name">menique_der</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">31</property>
-                        <property name="name">pulgar_izq</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">32</property>
-                        <property name="name">indice_izq</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">33</property>
-                        <property name="name">medio_izq</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">34</property>
-                        <property name="name">anular_izq</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">35</property>
-                        <property name="name">menique_izq</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">36</property>
-                        <property name="name">idEstatus</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">37</property>
-                        <property name="name">idEstudios</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">38</property>
-                        <property name="name">idEtapa</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">39</property>
-                        <property name="name">idConvocatoria</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">40</property>
-                        <property name="name">fecha_ingreso</property>
-                        <property name="dataType">date</property>
-                    </structure>
-                    <structure>
-                        <property name="position">41</property>
-                        <property name="name">cuip</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">42</property>
-                        <property name="name">foto_filiacion</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                </list-property>
-            </structure>
+            <structure name="cachedMetaData"/>
             <property name="dataSource">expediente-policias</property>
-            <list-property name="resultSet">
-                <structure>
-                    <property name="position">1</property>
-                    <property name="name">id</property>
-                    <property name="nativeName">id</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">2</property>
-                    <property name="name">folio</property>
-                    <property name="nativeName">folio</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">3</property>
-                    <property name="name">clave_empleado</property>
-                    <property name="nativeName">clave_empleado</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">4</property>
-                    <property name="name">nombre</property>
-                    <property name="nativeName">nombre</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">5</property>
-                    <property name="name">apellido_paterno</property>
-                    <property name="nativeName">apellido_paterno</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">6</property>
-                    <property name="name">apellido_materno</property>
-                    <property name="nativeName">apellido_materno</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">7</property>
-                    <property name="name">fecha_nac</property>
-                    <property name="nativeName">fecha_nac</property>
-                    <property name="dataType">date</property>
-                </structure>
-                <structure>
-                    <property name="position">8</property>
-                    <property name="name">municipio_nac</property>
-                    <property name="nativeName">municipio_nac</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">9</property>
-                    <property name="name">estado_nac</property>
-                    <property name="nativeName">estado_nac</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">10</property>
-                    <property name="name">rfc</property>
-                    <property name="nativeName">rfc</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">11</property>
-                    <property name="name">curp</property>
-                    <property name="nativeName">curp</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">12</property>
-                    <property name="name">edad</property>
-                    <property name="nativeName">edad</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">13</property>
-                    <property name="name">sexo</property>
-                    <property name="nativeName">sexo</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">14</property>
-                    <property name="name">telefono</property>
-                    <property name="nativeName">telefono</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">15</property>
-                    <property name="name">movil</property>
-                    <property name="nativeName">movil</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">16</property>
-                    <property name="name">domicilio_next</property>
-                    <property name="nativeName">domicilio_next</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">17</property>
-                    <property name="name">domicilio_nint</property>
-                    <property name="nativeName">domicilio_nint</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">18</property>
-                    <property name="name">domicilio_calle</property>
-                    <property name="nativeName">domicilio_calle</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">19</property>
-                    <property name="name">domicilio_col</property>
-                    <property name="nativeName">domicilio_col</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">20</property>
-                    <property name="name">domicilio_cp</property>
-                    <property name="nativeName">domicilio_cp</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">21</property>
-                    <property name="name">domicilio_mpo</property>
-                    <property name="nativeName">domicilio_mpo</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">22</property>
-                    <property name="name">domicilio_edo</property>
-                    <property name="nativeName">domicilio_edo</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">23</property>
-                    <property name="name">estado_civil</property>
-                    <property name="nativeName">estado_civil</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">24</property>
-                    <property name="name">email</property>
-                    <property name="nativeName">email</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">25</property>
-                    <property name="name">fotografia</property>
-                    <property name="nativeName">fotografia</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">26</property>
-                    <property name="name">pulgar_der</property>
-                    <property name="nativeName">pulgar_der</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">27</property>
-                    <property name="name">indice_der</property>
-                    <property name="nativeName">indice_der</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">28</property>
-                    <property name="name">medio_der</property>
-                    <property name="nativeName">medio_der</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">29</property>
-                    <property name="name">anular_der</property>
-                    <property name="nativeName">anular_der</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">30</property>
-                    <property name="name">menique_der</property>
-                    <property name="nativeName">menique_der</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">31</property>
-                    <property name="name">pulgar_izq</property>
-                    <property name="nativeName">pulgar_izq</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">32</property>
-                    <property name="name">indice_izq</property>
-                    <property name="nativeName">indice_izq</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">33</property>
-                    <property name="name">medio_izq</property>
-                    <property name="nativeName">medio_izq</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">34</property>
-                    <property name="name">anular_izq</property>
-                    <property name="nativeName">anular_izq</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">35</property>
-                    <property name="name">menique_izq</property>
-                    <property name="nativeName">menique_izq</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">36</property>
-                    <property name="name">idEstatus</property>
-                    <property name="nativeName">idEstatus</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">37</property>
-                    <property name="name">idEstudios</property>
-                    <property name="nativeName">idEstudios</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">38</property>
-                    <property name="name">idEtapa</property>
-                    <property name="nativeName">idEtapa</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">39</property>
-                    <property name="name">idConvocatoria</property>
-                    <property name="nativeName">idConvocatoria</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">40</property>
-                    <property name="name">fecha_ingreso</property>
-                    <property name="nativeName">fecha_ingreso</property>
-                    <property name="dataType">date</property>
-                </structure>
-                <structure>
-                    <property name="position">41</property>
-                    <property name="name">cuip</property>
-                    <property name="nativeName">cuip</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">42</property>
-                    <property name="name">foto_filiacion</property>
-                    <property name="nativeName">foto_filiacion</property>
-                    <property name="dataType">string</property>
-                </structure>
-            </list-property>
+            <list-property name="resultSet"/>
             <xml-property name="queryText"><![CDATA[select *
 from elementos 
-where clave_empleado like (?)]]></xml-property>
+where clave_empleado like (?)
+]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>
@@ -1428,6 +963,7 @@ where clave_empleado like (?)]]></xml-property>
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="exp-nombre-estado" id="355">
+            <list-property name="columnHints"/>
             <list-property name="parameters">
                 <structure>
                     <property name="name">param_1</property>
@@ -1436,28 +972,14 @@ where clave_empleado like (?)]]></xml-property>
                     <property name="dataType">string</property>
                     <property name="nativeDataType">-1</property>
                     <property name="position">1</property>
+                    <property name="isOptional">false</property>
                     <property name="isInput">true</property>
                     <property name="isOutput">false</property>
                 </structure>
             </list-property>
-            <structure name="cachedMetaData">
-                <list-property name="resultSet">
-                    <structure>
-                        <property name="position">1</property>
-                        <property name="name">nombre</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                </list-property>
-            </structure>
+            <structure name="cachedMetaData"/>
             <property name="dataSource">expediente-policias</property>
-            <list-property name="resultSet">
-                <structure>
-                    <property name="position">1</property>
-                    <property name="name">nombre</property>
-                    <property name="nativeName">nombre</property>
-                    <property name="dataType">string</property>
-                </structure>
-            </list-property>
+            <list-property name="resultSet"/>
             <xml-property name="queryText"><![CDATA[SELECT 
 	nombre 
 FROM 
@@ -1483,12 +1005,16 @@ WHERE
           <design:scale>0</design:scale>
           <design:nullability>Unknown</design:nullability>
         </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes/>
+        </design:inputAttributes>
       </design:ParameterDefinition>
     </parameter>
   </DataSetParameters>
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="nombre-estado-domicilio" id="710">
+            <list-property name="columnHints"/>
             <list-property name="parameters">
                 <structure>
                     <property name="name">param_1</property>
@@ -1497,28 +1023,14 @@ WHERE
                     <property name="dataType">string</property>
                     <property name="nativeDataType">-1</property>
                     <property name="position">1</property>
+                    <property name="isOptional">false</property>
                     <property name="isInput">true</property>
                     <property name="isOutput">false</property>
                 </structure>
             </list-property>
-            <structure name="cachedMetaData">
-                <list-property name="resultSet">
-                    <structure>
-                        <property name="position">1</property>
-                        <property name="name">nombre</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                </list-property>
-            </structure>
+            <structure name="cachedMetaData"/>
             <property name="dataSource">expediente-policias</property>
-            <list-property name="resultSet">
-                <structure>
-                    <property name="position">1</property>
-                    <property name="name">nombre</property>
-                    <property name="nativeName">nombre</property>
-                    <property name="dataType">string</property>
-                </structure>
-            </list-property>
+            <list-property name="resultSet"/>
             <xml-property name="queryText"><![CDATA[select nombre from estados where  
 id in (select domicilio_edo from elementos 
 where clave_empleado like (?))]]></xml-property>
@@ -1539,6 +1051,9 @@ where clave_empleado like (?))]]></xml-property>
           <design:scale>0</design:scale>
           <design:nullability>Unknown</design:nullability>
         </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes/>
+        </design:inputAttributes>
       </design:ParameterDefinition>
     </parameter>
   </DataSetParameters>
@@ -1554,72 +1069,14 @@ where clave_empleado like (?))]]></xml-property>
                     <property name="dataType">string</property>
                     <property name="nativeDataType">-1</property>
                     <property name="position">1</property>
+                    <property name="isOptional">false</property>
                     <property name="isInput">true</property>
                     <property name="isOutput">false</property>
                 </structure>
             </list-property>
-            <structure name="cachedMetaData">
-                <list-property name="resultSet">
-                    <structure>
-                        <property name="position">1</property>
-                        <property name="name">nombre</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">2</property>
-                        <property name="name">calificacion</property>
-                        <property name="dataType">decimal</property>
-                    </structure>
-                    <structure>
-                        <property name="position">3</property>
-                        <property name="name">fecha</property>
-                        <property name="dataType">date</property>
-                    </structure>
-                    <structure>
-                        <property name="position">4</property>
-                        <property name="name">duracion</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">5</property>
-                        <property name="name">observaciones</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                </list-property>
-            </structure>
+            <structure name="cachedMetaData"/>
             <property name="dataSource">expediente-policias</property>
-            <list-property name="resultSet">
-                <structure>
-                    <property name="position">1</property>
-                    <property name="name">nombre</property>
-                    <property name="nativeName">nombre</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">2</property>
-                    <property name="name">calificacion</property>
-                    <property name="nativeName">calificacion</property>
-                    <property name="dataType">decimal</property>
-                </structure>
-                <structure>
-                    <property name="position">3</property>
-                    <property name="name">fecha</property>
-                    <property name="nativeName">fecha</property>
-                    <property name="dataType">date</property>
-                </structure>
-                <structure>
-                    <property name="position">4</property>
-                    <property name="name">duracion</property>
-                    <property name="nativeName">duracion</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">5</property>
-                    <property name="name">observaciones</property>
-                    <property name="nativeName">observaciones</property>
-                    <property name="dataType">string</property>
-                </structure>
-            </list-property>
+            <list-property name="resultSet"/>
             <xml-property name="queryText"><![CDATA[SELECT 
 	B.nombre, 
 	C.calificacion, 
@@ -1653,6 +1110,9 @@ WHERE
           <design:scale>0</design:scale>
           <design:nullability>Unknown</design:nullability>
         </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes/>
+        </design:inputAttributes>
       </design:ParameterDefinition>
     </parameter>
   </DataSetParameters>
@@ -1813,6 +1273,7 @@ WHERE
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="exp-evaluaciones" id="1166">
+            <list-property name="columnHints"/>
             <list-property name="parameters">
                 <structure>
                     <property name="name">param_1</property>
@@ -1821,72 +1282,14 @@ WHERE
                     <property name="dataType">string</property>
                     <property name="nativeDataType">-1</property>
                     <property name="position">1</property>
+                    <property name="isOptional">false</property>
                     <property name="isInput">true</property>
                     <property name="isOutput">false</property>
                 </structure>
             </list-property>
-            <structure name="cachedMetaData">
-                <list-property name="resultSet">
-                    <structure>
-                        <property name="position">1</property>
-                        <property name="name">nombre</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">2</property>
-                        <property name="name">duracion</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">3</property>
-                        <property name="name">observaciones</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">4</property>
-                        <property name="name">fecha</property>
-                        <property name="dataType">date</property>
-                    </structure>
-                    <structure>
-                        <property name="position">5</property>
-                        <property name="name">nombre_5</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                </list-property>
-            </structure>
+            <structure name="cachedMetaData"/>
             <property name="dataSource">expediente-policias</property>
-            <list-property name="resultSet">
-                <structure>
-                    <property name="position">1</property>
-                    <property name="name">nombre</property>
-                    <property name="nativeName">nombre</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">2</property>
-                    <property name="name">duracion</property>
-                    <property name="nativeName">duracion</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">3</property>
-                    <property name="name">observaciones</property>
-                    <property name="nativeName">observaciones</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">4</property>
-                    <property name="name">fecha</property>
-                    <property name="nativeName">fecha</property>
-                    <property name="dataType">date</property>
-                </structure>
-                <structure>
-                    <property name="position">5</property>
-                    <property name="name">nombre_5</property>
-                    <property name="nativeName">nombre</property>
-                    <property name="dataType">string</property>
-                </structure>
-            </list-property>
+            <list-property name="resultSet"/>
             <xml-property name="queryText"><![CDATA[SELECT B.nombre as nombreEvaluacion, 
 B.duracion as duracionEvaluacion,
 C.observaciones, 
@@ -1896,7 +1299,8 @@ FROM elementos A, evaluaciones B, log_evaluaciones C, tipos_evaluacion D
 WHERE A.id = C.idElemento AND 
 	C.idEvaluacion = B.id AND 
 		A.clave_empleado LIKE (?) AND 
-			D.id = B.idTipo order by D.nombre and C.fecha desc]]></xml-property>
+			D.id = B.idTipo 
+			 order by D.nombre and C.fecha desc]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>
@@ -1914,127 +1318,16 @@ WHERE A.id = C.idElemento AND
           <design:scale>0</design:scale>
           <design:nullability>Unknown</design:nullability>
         </design:attributes>
-      </design:ParameterDefinition>
-    </parameter>
-  </DataSetParameters>
-</model:DesignValues>]]></xml-property>
-        </oda-data-set>
-        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="exp-sanciones" id="1205">
-            <list-property name="parameters">
-                <structure>
-                    <property name="name">param_1</property>
-                    <property name="paramName">claveEmpleado</property>
-                    <property name="nativeName"></property>
-                    <property name="dataType">string</property>
-                    <property name="nativeDataType">-1</property>
-                    <property name="position">1</property>
-                    <property name="isInput">true</property>
-                    <property name="isOutput">false</property>
-                </structure>
-            </list-property>
-            <structure name="cachedMetaData">
-                <list-property name="resultSet">
-                    <structure>
-                        <property name="position">1</property>
-                        <property name="name">causa_sancion</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">2</property>
-                        <property name="name">sancion</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">3</property>
-                        <property name="name">fecha</property>
-                        <property name="dataType">date</property>
-                    </structure>
-                    <structure>
-                        <property name="position">4</property>
-                        <property name="name">duracion</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">5</property>
-                        <property name="name">observaciones</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                </list-property>
-            </structure>
-            <property name="dataSource">expediente-policias</property>
-            <list-property name="resultSet">
-                <structure>
-                    <property name="position">1</property>
-                    <property name="name">causa_sancion</property>
-                    <property name="nativeName">causa_sancion</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">2</property>
-                    <property name="name">sancion</property>
-                    <property name="nativeName">sancion</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">3</property>
-                    <property name="name">fecha</property>
-                    <property name="nativeName">fecha</property>
-                    <property name="dataType">date</property>
-                </structure>
-                <structure>
-                    <property name="position">4</property>
-                    <property name="name">duracion</property>
-                    <property name="nativeName">duracion</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">5</property>
-                    <property name="name">observaciones</property>
-                    <property name="nativeName">observaciones</property>
-                    <property name="dataType">string</property>
-                </structure>
-            </list-property>
-            <xml-property name="queryText"><![CDATA[SELECT 
-	B.causa_sancion as CausaMotivo,
-	C.sancion as sancion,
-	D.fecha,
-	D.duracion,
-	D.observaciones
-
-FROM 
-	elementos A, causas B, sanciones C, log_sanciones D
-WHERE 
-	A.clave_empleado LIKE (?) 
-AND
-	A.id = D.idElemento
-AND 
-	B.id = D.idCausa
-AND
-	C.id = idSancion
-order by D.idCausa and D.fecha desc]]></xml-property>
-            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
-  <Version>2.0</Version>
-  <DataSetParameters>
-    <parameter>
-      <design:ParameterDefinition>
-        <design:inOutMode>In</design:inOutMode>
-        <design:attributes>
-          <design:identifier>
-            <design:name></design:name>
-            <design:position>1</design:position>
-          </design:identifier>
-          <design:nativeDataTypeCode>-1</design:nativeDataTypeCode>
-          <design:precision>0</design:precision>
-          <design:scale>0</design:scale>
-          <design:nullability>Unknown</design:nullability>
-        </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes/>
+        </design:inputAttributes>
       </design:ParameterDefinition>
     </parameter>
   </DataSetParameters>
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="exp-nombramientos" id="1248">
+            <list-property name="columnHints"/>
             <list-property name="parameters">
                 <structure>
                     <property name="name">param_1</property>
@@ -2043,61 +1336,14 @@ order by D.idCausa and D.fecha desc]]></xml-property>
                     <property name="dataType">string</property>
                     <property name="nativeDataType">-1</property>
                     <property name="position">1</property>
+                    <property name="isOptional">false</property>
                     <property name="isInput">true</property>
                     <property name="isOutput">false</property>
                 </structure>
             </list-property>
-            <structure name="cachedMetaData">
-                <list-property name="resultSet">
-                    <structure>
-                        <property name="position">1</property>
-                        <property name="name">tipo</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">2</property>
-                        <property name="name">concepto</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">3</property>
-                        <property name="name">fecha</property>
-                        <property name="dataType">date</property>
-                    </structure>
-                    <structure>
-                        <property name="position">4</property>
-                        <property name="name">observaciones</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                </list-property>
-            </structure>
+            <structure name="cachedMetaData"/>
             <property name="dataSource">expediente-policias</property>
-            <list-property name="resultSet">
-                <structure>
-                    <property name="position">1</property>
-                    <property name="name">tipo</property>
-                    <property name="nativeName">tipo</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">2</property>
-                    <property name="name">concepto</property>
-                    <property name="nativeName">concepto</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">3</property>
-                    <property name="name">fecha</property>
-                    <property name="nativeName">fecha</property>
-                    <property name="dataType">date</property>
-                </structure>
-                <structure>
-                    <property name="position">4</property>
-                    <property name="name">observaciones</property>
-                    <property name="nativeName">observaciones</property>
-                    <property name="dataType">string</property>
-                </structure>
-            </list-property>
+            <list-property name="resultSet"/>
             <xml-property name="queryText"><![CDATA[SELECT 
 	B.tipo,
 	B.concepto,
@@ -2112,7 +1358,6 @@ AND
 	A.id = C.idElemento
 AND 
 	B.id = C.idEstimulo
-	
 order by C.idEstimulo and C.fecha desc]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
@@ -2131,12 +1376,16 @@ order by C.idEstimulo and C.fecha desc]]></xml-property>
           <design:scale>0</design:scale>
           <design:nullability>Unknown</design:nullability>
         </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes/>
+        </design:inputAttributes>
       </design:ParameterDefinition>
     </parameter>
   </DataSetParameters>
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="exp-adscripciones" id="1304">
+            <list-property name="columnHints"/>
             <list-property name="parameters">
                 <structure>
                     <property name="name">param_1</property>
@@ -2145,72 +1394,14 @@ order by C.idEstimulo and C.fecha desc]]></xml-property>
                     <property name="dataType">string</property>
                     <property name="nativeDataType">-1</property>
                     <property name="position">1</property>
+                    <property name="isOptional">false</property>
                     <property name="isInput">true</property>
                     <property name="isOutput">false</property>
                 </structure>
             </list-property>
-            <structure name="cachedMetaData">
-                <list-property name="resultSet">
-                    <structure>
-                        <property name="position">1</property>
-                        <property name="name">nombre</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">2</property>
-                        <property name="name">fecha</property>
-                        <property name="dataType">date</property>
-                    </structure>
-                    <structure>
-                        <property name="position">3</property>
-                        <property name="name">detalle_comision</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">4</property>
-                        <property name="name">grado</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">5</property>
-                        <property name="name">observaciones</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                </list-property>
-            </structure>
+            <structure name="cachedMetaData"/>
             <property name="dataSource">expediente-policias</property>
-            <list-property name="resultSet">
-                <structure>
-                    <property name="position">1</property>
-                    <property name="name">nombre</property>
-                    <property name="nativeName">nombre</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">2</property>
-                    <property name="name">fecha</property>
-                    <property name="nativeName">fecha</property>
-                    <property name="dataType">date</property>
-                </structure>
-                <structure>
-                    <property name="position">3</property>
-                    <property name="name">detalle_comision</property>
-                    <property name="nativeName">detalle_comision</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">4</property>
-                    <property name="name">grado</property>
-                    <property name="nativeName">grado</property>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
-                    <property name="position">5</property>
-                    <property name="name">observaciones</property>
-                    <property name="nativeName">observaciones</property>
-                    <property name="dataType">string</property>
-                </structure>
-            </list-property>
+            <list-property name="resultSet"/>
             <xml-property name="queryText"><![CDATA[SELECT 
 	B.nombre as nombreAdscripcion,
 	C.fecha,
@@ -2228,6 +1419,7 @@ AND
 	B.id = C.idAdscripcion
 AND 
 	C.idNombramiento = D.id
+
 	
 order by C.idAdscripcion and C.fecha desc]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
@@ -2247,12 +1439,16 @@ order by C.idAdscripcion and C.fecha desc]]></xml-property>
           <design:scale>0</design:scale>
           <design:nullability>Unknown</design:nullability>
         </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes/>
+        </design:inputAttributes>
       </design:ParameterDefinition>
     </parameter>
   </DataSetParameters>
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="exp-grado-estudios" id="1418">
+            <list-property name="columnHints"/>
             <list-property name="parameters">
                 <structure>
                     <property name="name">param_1</property>
@@ -2261,28 +1457,14 @@ order by C.idAdscripcion and C.fecha desc]]></xml-property>
                     <property name="dataType">string</property>
                     <property name="nativeDataType">-1</property>
                     <property name="position">1</property>
+                    <property name="isOptional">false</property>
                     <property name="isInput">true</property>
                     <property name="isOutput">false</property>
                 </structure>
             </list-property>
-            <structure name="cachedMetaData">
-                <list-property name="resultSet">
-                    <structure>
-                        <property name="position">1</property>
-                        <property name="name">grado_estudios</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                </list-property>
-            </structure>
+            <structure name="cachedMetaData"/>
             <property name="dataSource">expediente-policias</property>
-            <list-property name="resultSet">
-                <structure>
-                    <property name="position">1</property>
-                    <property name="name">grado_estudios</property>
-                    <property name="nativeName">grado_estudios</property>
-                    <property name="dataType">string</property>
-                </structure>
-            </list-property>
+            <list-property name="resultSet"/>
             <xml-property name="queryText"><![CDATA[select grado_estudios 
 from estudios 
 where id in(	
@@ -2306,6 +1488,9 @@ where clave_empleado=?) ]]></xml-property>
           <design:scale>0</design:scale>
           <design:nullability>Unknown</design:nullability>
         </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes/>
+        </design:inputAttributes>
       </design:ParameterDefinition>
     </parameter>
   </DataSetParameters>

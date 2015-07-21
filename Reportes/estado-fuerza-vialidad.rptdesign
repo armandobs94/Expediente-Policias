@@ -3979,31 +3979,37 @@ WHERE idEstatus IN (1, 2) and idTipo = 2]]></xml-property>
                         <detail>
                             <row id="176">
                                 <cell id="177">
+                                    <property name="style">borde-inferior</property>
                                     <data id="197">
                                         <property name="resultSetColumn">clave_empleado</property>
                                     </data>
                                 </cell>
                                 <cell id="178">
+                                    <property name="style">borde-inferior</property>
                                     <data id="199">
                                         <property name="resultSetColumn">apellido_paterno</property>
                                     </data>
                                 </cell>
                                 <cell id="179">
+                                    <property name="style">borde-inferior</property>
                                     <data id="201">
                                         <property name="resultSetColumn">apellido_materno</property>
                                     </data>
                                 </cell>
                                 <cell id="180">
+                                    <property name="style">borde-inferior</property>
                                     <data id="207">
                                         <property name="resultSetColumn">nombre</property>
                                     </data>
                                 </cell>
                                 <cell id="181">
+                                    <property name="style">borde-inferior</property>
                                     <data id="205">
                                         <property name="resultSetColumn">fecha_ingreso</property>
                                     </data>
                                 </cell>
                                 <cell id="182">
+                                    <property name="style">borde-inferior</property>
                                     <data id="203">
                                         <property name="resultSetColumn">edad</property>
                                     </data>
@@ -4158,31 +4164,37 @@ WHERE idEstatus IN (1, 2) and idTipo = 2]]></xml-property>
                         <detail>
                             <row id="283">
                                 <cell id="284">
+                                    <property name="style">borde-inferior</property>
                                     <data id="305">
                                         <property name="resultSetColumn">clave_empleado</property>
                                     </data>
                                 </cell>
                                 <cell id="285">
+                                    <property name="style">borde-inferior</property>
                                     <data id="307">
                                         <property name="resultSetColumn">apellido_paterno</property>
                                     </data>
                                 </cell>
                                 <cell id="286">
+                                    <property name="style">borde-inferior</property>
                                     <data id="309">
                                         <property name="resultSetColumn">apellido_materno</property>
                                     </data>
                                 </cell>
                                 <cell id="287">
+                                    <property name="style">borde-inferior</property>
                                     <data id="315">
                                         <property name="resultSetColumn">nombre</property>
                                     </data>
                                 </cell>
                                 <cell id="288">
+                                    <property name="style">borde-inferior</property>
                                     <data id="313">
                                         <property name="resultSetColumn">fecha_ingreso</property>
                                     </data>
                                 </cell>
                                 <cell id="289">
+                                    <property name="style">borde-inferior</property>
                                     <data id="311">
                                         <property name="resultSetColumn">edad</property>
                                     </data>

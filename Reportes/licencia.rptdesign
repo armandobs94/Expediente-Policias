@@ -299,6 +299,10 @@ B.idLicencia = 4 ]]></xml-property>
             <property name="fontWeight">bold</property>
             <property name="textAlign">left</property>
         </style>
+        <style name="borde-inferior" id="102">
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">thin</property>
+        </style>
     </styles>
     <page-setup>
         <simple-master-page name="Simple MasterPage" id="2">
@@ -422,26 +426,31 @@ B.idLicencia = 4 ]]></xml-property>
                         <detail>
                             <row id="74">
                                 <cell id="75">
+                                    <property name="style">borde-inferior</property>
                                     <data id="92">
                                         <property name="resultSetColumn">clave_empleado</property>
                                     </data>
                                 </cell>
                                 <cell id="76">
+                                    <property name="style">borde-inferior</property>
                                     <data id="94">
                                         <property name="resultSetColumn">nombre</property>
                                     </data>
                                 </cell>
                                 <cell id="77">
+                                    <property name="style">borde-inferior</property>
                                     <data id="96">
                                         <property name="resultSetColumn">apellido_paterno</property>
                                     </data>
                                 </cell>
                                 <cell id="78">
+                                    <property name="style">borde-inferior</property>
                                     <data id="98">
                                         <property name="resultSetColumn">apellido_materno</property>
                                     </data>
                                 </cell>
                                 <cell id="79">
+                                    <property name="style">borde-inferior</property>
                                     <data id="100">
                                         <property name="resultSetColumn">fecha_insercion</property>
                                     </data>

@@ -32,124 +32,11 @@
     <data-sets>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="exp-habilidades-destrezas-ev" id="8">
             <property name="nullsOrdering">nulls lowest</property>
-            <list-property name="columnHints">
-                <structure>
-                    <property name="columnName">clave_empleado</property>
-                    <property name="analysis">dimension</property>
-                    <text-property name="displayName">clave_empleado</text-property>
-                    <text-property name="heading">clave_empleado</text-property>
-                </structure>
-                <structure>
-                    <property name="columnName">nombre</property>
-                    <property name="analysis">dimension</property>
-                    <text-property name="displayName">nombre</text-property>
-                    <text-property name="heading">nombre</text-property>
-                </structure>
-                <structure>
-                    <property name="columnName">apellido_paterno</property>
-                    <property name="analysis">dimension</property>
-                    <text-property name="displayName">apellido_paterno</text-property>
-                    <text-property name="heading">apellido_paterno</text-property>
-                </structure>
-                <structure>
-                    <property name="columnName">apellido_materno</property>
-                    <property name="analysis">dimension</property>
-                    <text-property name="displayName">apellido_materno</text-property>
-                    <text-property name="heading">apellido_materno</text-property>
-                </structure>
-                <structure>
-                    <property name="columnName">fecha</property>
-                    <property name="analysis">dimension</property>
-                    <text-property name="displayName">fecha</text-property>
-                    <text-property name="heading">fecha</text-property>
-                </structure>
-                <structure>
-                    <property name="columnName">observaciones</property>
-                    <property name="analysis">dimension</property>
-                    <text-property name="displayName">observaciones</text-property>
-                    <text-property name="heading">observaciones</text-property>
-                </structure>
-            </list-property>
+            <list-property name="columnHints"/>
             <list-property name="parameters"/>
-            <structure name="cachedMetaData">
-                <list-property name="resultSet">
-                    <structure>
-                        <property name="position">1</property>
-                        <property name="name">clave_empleado</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">2</property>
-                        <property name="name">nombre</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">3</property>
-                        <property name="name">apellido_paterno</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">4</property>
-                        <property name="name">apellido_materno</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">5</property>
-                        <property name="name">fecha</property>
-                        <property name="dataType">date</property>
-                    </structure>
-                    <structure>
-                        <property name="position">6</property>
-                        <property name="name">observaciones</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                </list-property>
-            </structure>
+            <structure name="cachedMetaData"/>
             <property name="dataSource">exp-policias</property>
-            <list-property name="resultSet">
-                <structure>
-                    <property name="position">1</property>
-                    <property name="name">clave_empleado</property>
-                    <property name="nativeName">clave_empleado</property>
-                    <property name="dataType">string</property>
-                    <property name="nativeDataType">12</property>
-                </structure>
-                <structure>
-                    <property name="position">2</property>
-                    <property name="name">nombre</property>
-                    <property name="nativeName">nombre</property>
-                    <property name="dataType">string</property>
-                    <property name="nativeDataType">12</property>
-                </structure>
-                <structure>
-                    <property name="position">3</property>
-                    <property name="name">apellido_paterno</property>
-                    <property name="nativeName">apellido_paterno</property>
-                    <property name="dataType">string</property>
-                    <property name="nativeDataType">12</property>
-                </structure>
-                <structure>
-                    <property name="position">4</property>
-                    <property name="name">apellido_materno</property>
-                    <property name="nativeName">apellido_materno</property>
-                    <property name="dataType">string</property>
-                    <property name="nativeDataType">12</property>
-                </structure>
-                <structure>
-                    <property name="position">5</property>
-                    <property name="name">fecha</property>
-                    <property name="nativeName">fecha</property>
-                    <property name="dataType">date</property>
-                    <property name="nativeDataType">91</property>
-                </structure>
-                <structure>
-                    <property name="position">6</property>
-                    <property name="name">observaciones</property>
-                    <property name="nativeName">observaciones</property>
-                    <property name="dataType">string</property>
-                    <property name="nativeDataType">12</property>
-                </structure>
-            </list-property>
+            <list-property name="resultSet"/>
             <xml-property name="queryText"><![CDATA[SELECT 
 A.clave_empleado, A.nombre, A.apellido_paterno, 
 A.apellido_materno, B.fecha, B.observaciones
@@ -158,7 +45,8 @@ elementos A,
 log_evaluaciones B, evaluaciones C
 WHERE 
 C.idTipo = 2 and B.idEvaluacion = C.id 
-and A.id = B.idElemento and B.cumplimiento = 1]]></xml-property>
+and A.id = B.idElemento and B.cumplimiento = 1
+]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>
@@ -323,6 +211,11 @@ and A.id = B.idElemento and B.cumplimiento = 1]]></xml-property>
             <property name="fontWeight">bold</property>
             <property name="textAlign">left</property>
         </style>
+        <style name="fondo-inferior" id="119"/>
+        <style name="borde-inferior" id="120">
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">thin</property>
+        </style>
     </styles>
     <page-setup>
         <simple-master-page name="Simple MasterPage" id="2">
@@ -473,31 +366,37 @@ and A.id = B.idElemento and B.cumplimiento = 1]]></xml-property>
                         <detail>
                             <row id="85">
                                 <cell id="86">
+                                    <property name="style">borde-inferior</property>
                                     <data id="107">
                                         <property name="resultSetColumn">clave_empleado</property>
                                     </data>
                                 </cell>
                                 <cell id="87">
+                                    <property name="style">borde-inferior</property>
                                     <data id="113">
                                         <property name="resultSetColumn">nombre</property>
                                     </data>
                                 </cell>
                                 <cell id="88">
+                                    <property name="style">borde-inferior</property>
                                     <data id="109">
                                         <property name="resultSetColumn">apellido_paterno</property>
                                     </data>
                                 </cell>
                                 <cell id="89">
+                                    <property name="style">borde-inferior</property>
                                     <data id="111">
                                         <property name="resultSetColumn">apellido_materno</property>
                                     </data>
                                 </cell>
                                 <cell id="90">
+                                    <property name="style">borde-inferior</property>
                                     <data id="115">
                                         <property name="resultSetColumn">fecha</property>
                                     </data>
                                 </cell>
                                 <cell id="103">
+                                    <property name="style">borde-inferior</property>
                                     <data id="117">
                                         <property name="resultSetColumn">observaciones</property>
                                     </data>

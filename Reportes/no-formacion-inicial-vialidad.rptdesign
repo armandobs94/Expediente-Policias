@@ -344,6 +344,10 @@ B.idCurso = 6 AND B.cumplimiento != 1 AND A.idTipo  = 2]]></xml-property>
             <property name="textTransform">uppercase</property>
             <property name="verticalAlign">middle</property>
         </style>
+        <style name="borde-inferior" id="119">
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">thin</property>
+        </style>
     </styles>
     <page-setup>
         <simple-master-page name="Simple MasterPage" id="2">
@@ -479,31 +483,37 @@ B.idCurso = 6 AND B.cumplimiento != 1 AND A.idTipo  = 2]]></xml-property>
                         <detail>
                             <row id="85">
                                 <cell id="86">
+                                    <property name="style">borde-inferior</property>
                                     <data id="106">
                                         <property name="resultSetColumn">clave_empleado</property>
                                     </data>
                                 </cell>
                                 <cell id="87">
+                                    <property name="style">borde-inferior</property>
                                     <data id="108">
                                         <property name="resultSetColumn">nombre</property>
                                     </data>
                                 </cell>
                                 <cell id="88">
+                                    <property name="style">borde-inferior</property>
                                     <data id="110">
                                         <property name="resultSetColumn">apellido_paterno</property>
                                     </data>
                                 </cell>
                                 <cell id="89">
+                                    <property name="style">borde-inferior</property>
                                     <data id="112">
                                         <property name="resultSetColumn">apellido_materno</property>
                                     </data>
                                 </cell>
                                 <cell id="90">
+                                    <property name="style">borde-inferior</property>
                                     <data id="114">
                                         <property name="resultSetColumn">calificacion</property>
                                     </data>
                                 </cell>
                                 <cell id="91">
+                                    <property name="style">borde-inferior</property>
                                     <data id="116">
                                         <property name="resultSetColumn">fecha</property>
                                     </data>
